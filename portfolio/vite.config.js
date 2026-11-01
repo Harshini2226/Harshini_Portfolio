@@ -1,5 +1,7 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// base "./" lets the built site work on GitHub Pages, Netlify, Vercel or any static host.
-export default defineConfig({ plugins: [react()], base: "./" });
+export default defineConfig({
+  plugins: [react()],
+  base: '/Harshini_Portfolio/',
+})
